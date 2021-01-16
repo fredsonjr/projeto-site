@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?4ycdbu');
-  src:  url('fonts/icomoon.eot?4ycdbu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?4ycdbu') format('truetype'),
-    url('fonts/icomoon.woff?4ycdbu') format('woff'),
-    url('fonts/icomoon.svg?4ycdbu#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ll5l92');
+  src:  url('fonts/icomoon.eot?ll5l92#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ll5l92') format('truetype'),
+    url('fonts/icomoon.woff?ll5l92') format('woff'),
+    url('fonts/icomoon.svg?ll5l92#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,11 +37,17 @@
 .icon-truck:before {
   content: "\e9b0";
 }
+.icon-warning:before {
+  content: "\ea07";
+}
 .icon-mail4:before {
   content: "\ea86";
 }
 .icon-facebook2:before {
   content: "\ea91";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
 }
 .icon-twitter:before {
   content: "\ea96";
