@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pag-login{
+    background-color: #d4d3d3;
+    padding-left: 3%;
+    width: 100%;
+    
+}
+.clearfix:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.top-header{
+    margin-bottom: -1em;
+    
+}
+.title-login{
+    color: rgb(75, 45, 114);
+    margin-left: 2.5%;
+    font-size: 1.5em;
+    padding-top: 1em;
+    
+}
+.subtitle-login{
+    color: rgb(75, 45, 114);
+    margin-left: 2.5%;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+.subtitle-login2{
+    color: rgb(75, 45, 114);
+    margin-left: 2.5%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, select, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+    color: rgb(75, 45, 114);
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo input[type="tel"], .campo select{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo input:focus, .campo select:focus{
+    background: #E0E0F8;
+}
+
+.botao{
+    background-color: rgb(105, 72, 148);
+    color: white;
+    padding: 0.35em 0.93em;
+    margin-left: 2.5%;
+    margin-bottom: 2em;
+    border: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) ;
+}
+.botao:hover{
+    background-color: rgb(75, 45, 114);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+.genero{
+    display: inline-block;
+}
+.footer-menu{
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 48.75em){
+    .pag-login{
+        background-color: #d4d3d3;
+        padding-left: 3%;
+        width: 97%;
+    }
+    .title-login{
+        margin-left: 0.4em;
+        font-size: 2em;
+    }
+    .subtitle-login{
+        margin-left: 0.4em;
+        padding-top: 2em;
+        font-size: 1.7em;
+    }
+    .subtitle-login2{
+        font-size: 1.7em;
+    }
+    
+    .col-1-2{
+        float: left;
+        width: 33%;
+        background-color: rgba(102, 51, 153, 0.288);
+        border-radius: 4em 1em;
+        padding-left: 13%;
+    }
+    .top-header{
+        margin-bottom: 0;
+        
+    }
+}
